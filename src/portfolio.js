@@ -60,11 +60,11 @@ export const whatido = {
       iconifyClassName: "vscode-icons:file-type-reactjs",
       id: "4",
     },
-    {
-      name: "Redux",
-      iconifyClassName: "logos:redux",
-      id: "5",
-    },
+    // {
+    //   name: "Redux",
+    //   iconifyClassName: "logos:redux",
+    //   id: "5",
+    // },
     {
       name: "NodeJS",
       iconifyClassName: "logos:nodejs",
@@ -80,21 +80,21 @@ export const whatido = {
       iconifyClassName: "logos:mongodb",
       id: "8",
     },
-    {
-      name: "Postman",
-      iconifyClassName: "logos:postman-icon",
-      id: "9",
-    },
-    {
-      name: "npm",
-      iconifyClassName: "logos:npm-icon",
-      id: "10",
-    },
-    {
-      name: "GIT",
-      iconifyClassName: "logos:git",
-      id: "11",
-    },
+    // {
+    //   name: "Postman",
+    //   iconifyClassName: "logos:postman-icon",
+    //   id: "9",
+    // },
+    // {
+    //   name: "npm",
+    //   iconifyClassName: "logos:npm-icon",
+    //   id: "10",
+    // },
+    // {
+    //   name: "GIT",
+    //   iconifyClassName: "logos:git",
+    //   id: "11",
+    // },
     // {
     //   name: "Tailwind",
     //   iconifyClassName: "logos:tailwindcss-icon",
@@ -185,7 +185,7 @@ export const details = [
   {
     id: 5,
     title: "Box8 Clone",
-    desc: `A web application to order Food.`,
+    desc: `Box8 is a Online food ordering website where you can order different items of food through online.You can filter the food items by category, by food Name etc..You can add the food items in cart-page and wishlist then order the food items by checking out.`,
     feature: `Sign-in/Sign-up User Authentication,
     Image slideshow in Home page,
     `,
