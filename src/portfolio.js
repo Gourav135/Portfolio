@@ -28,6 +28,10 @@ export const aboutme = {
   p3: "Apart from programming I like to do Sketching and Learning new technologies",
 };
 
+// export const education = {
+//   h1: "Education"
+// }
+
 // Skills
 export const whatido = {
   title: "Full Stack Development",
@@ -60,11 +64,11 @@ export const whatido = {
       iconifyClassName: "vscode-icons:file-type-reactjs",
       id: "4",
     },
-    // {
-    //   name: "Redux",
-    //   iconifyClassName: "logos:redux",
-    //   id: "5",
-    // },
+    {
+      name: "Redux",
+      iconifyClassName: "logos:redux",
+      id: "5",
+    },
     {
       name: "NodeJS",
       iconifyClassName: "logos:nodejs",
