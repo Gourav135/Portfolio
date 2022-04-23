@@ -55,24 +55,19 @@ export const whatido = {
       id: "2",
     },
     {
+      name: "BootStrap",
+      iconifyClassName: "logos:bootstrap",
+      id: "17",
+    },
+    {
       name: "JavaScript",
       iconifyClassName: "logos:javascript",
       id: "3",
     },
     {
-      name: "ReactJS",
-      iconifyClassName: "vscode-icons:file-type-reactjs",
-      id: "4",
-    },
-    {
-      name: "Redux",
-      iconifyClassName: "logos:redux",
-      id: "5",
-    },
-    {
-      name: "NodeJS",
-      iconifyClassName: "logos:nodejs",
-      id: "6",
+      name: "MongoDB",
+      iconifyClassName: "logos:mongodb",
+      id: "8",
     },
     {
       name: "ExpressJS",
@@ -80,9 +75,24 @@ export const whatido = {
       id: "7",
     },
     {
-      name: "MongoDB",
-      iconifyClassName: "logos:mongodb",
-      id: "8",
+      name: "NodeJS",
+      iconifyClassName: "logos:nodejs",
+      id: "6",
+    },
+    {
+      name: "ReactJS",
+      iconifyClassName: "vscode-icons:file-type-reactjs",
+      id: "4",
+    },
+    {
+      name: "Material-UI",
+      iconifyClassName: "logos:material-ui",
+      id: "13",
+    },
+    {
+      name: "Redux",
+      iconifyClassName: "logos:redux",
+      id: "5",
     },
     // {
     //   name: "Postman",
@@ -104,11 +114,7 @@ export const whatido = {
     //   iconifyClassName: "logos:tailwindcss-icon",
     //   id: "12",
     // },
-    // {
-    //   name: "Material-UI",
-    //   iconifyClassName: "logos:material-ui",
-    //   id: "13",
-    // },
+    
     // {
     //   name: "Ant Design",
     //   iconifyClassName: "logos:ant-design",
@@ -124,11 +130,7 @@ export const whatido = {
     //   iconifyClassName: "logos:vercel-icon",
     //   id: "16",
     // },
-    {
-      name: "BootStrap",
-      iconifyClassName: "logos:bootstrap",
-      id: "17",
-    }
+    
   ],
 };
 
@@ -189,26 +191,29 @@ export const details = [
   {
     id: 5,
     title: "Box8 Clone",
-    desc: `Box8 is a Online food ordering website where you can order different items of food through online.You can filter the food items by category, by food Name etc..You can add the food items in cart-page and wishlist then order the food items by checking out.`,
+    desc: `Box8 is a Online food ordering website where you can order different items of food through online. You can filter the food items by food category and name. You can also add the food items in cart-page and order the food items by checking out.`,
     feature: `Sign-in/Sign-up User Authentication,
     Image slideshow in Home page,
     `,
-    tech: `Tech Stack: HTML | CSS | JavaScript .`,
+    tech: `Tech Stack: HTML | CSS | Javascript | BootStrap | MongoDB | ExpressJs | NodeJs .`,
     img: "https://miro.medium.com/max/1400/1*HW-fdIPcljPsCceTvV-Tvg.png",
     link: "https://gourav135.github.io/Box8.in/",
-    github: "https://github.com/Gourav135/Box8.in",
+    github: "https://github.com/Gourav135/Box8-Unit-4.git",
   },
-//   {
-//     id: 6,
-//     title: "My Recipe App",
-//     desc: `It's a food recipe app, users can search recipes of various dishes and also see the latest recipes as well as the recipe of the day.`,
-//     feature: `Search recipe,
-// Recipe of the day.`,
-//     tech: `Tech Stack: HTML | CSS | JavaScript`,
-//     img: "https://github.com/Shivam2101s/images/blob/main/food%20app.jpg?raw=true",
-//     link: "https://condescending-pare-f88022.netlify.app/",
-//     github: "https://github.com/avinashkumarkml/Food-app-main",
-//   },
+  {
+    id: 6,
+    title: "Education Clone",
+    desc: `Educative helps software engineers grow their skill sets and reach their full potential. Text-based courses with interactive in-browser coding helps you learn faster and smarter.`,
+    feature: `Single Page website,
+    Sign-in/Sign-up User Authentication using Backend,
+    Sorting And Filtering,
+    Pagination.
+    `,
+    tech: `Tech Stack: : HTML | CSS | Javascript | MongoDB | ExpressJs | NodeJs | Material UI | React | Redux .`,
+    img: "https://cdn-images-1.medium.com/max/800/1*cxCfA4IY8Xi8TvWa4CkA7Q.png",
+    link: "https://educative-clone.vercel.app/",
+    github: "https://github.com/Gourav135/educative-clone",
+  },
 ];
 
 // Social Media Links
